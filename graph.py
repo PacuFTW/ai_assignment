@@ -3,11 +3,11 @@ def dfs(graph, start):
     finished = set()
 
     def visit(node):
-        print(f"Visited: {node}")
+        print(f"\033[93mVisited: {node}")
         visited.add(node)
 
     def finish(node):
-        print(f"Finished: {node}")
+        print(f"\033[92mFinished: {node}")
         finished.add(node)
 
     def dfs_recursive(node):
