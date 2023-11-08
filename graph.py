@@ -29,3 +29,4 @@ graph = {
 }
 
 dfs(graph, 'A')
+input("Press Enter to exit...")
